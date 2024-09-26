@@ -1,0 +1,27 @@
+body {
+    background-image: url('Media/game\ bg\ 3.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    position: relative;
+}
+
+img.ryu_fight {
+    position: absolute;
+    margin-right:70%;
+    margin-top: 10%;
+    scale: 0.65;
+}
+
+img.ken_fight {
+    transform: scaleX(-1);
+    position: absolute;
+    margin-left:70%;
+    margin-top: 10%;
+    scale: 0.65;
+}
